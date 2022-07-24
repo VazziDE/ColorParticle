@@ -1,34 +1,33 @@
 name: ColorParticle
-version: 1.2.1
+version: 1.2.2
 main: Vazzi\ColorParticle\ColorParticle
-api: 3.19.2
+api: 4.0.0
 author: Vazzi
 permissions:
   colorparticle.permission:
     description: Allow Player to use colored particle
     default: op
-    children:
-      all:
-        description: Allow Player to use all Colors
-      red:
-        description: Allow Player to use Red Color
-      green:
-        description: Allow Player to use Green Color
-      blue:
-        description: Allow Player to use Blue Color
-      orange:
-        description: Allow Player to use Orange Color
-      yellow:
-        description: Allow Player to use Yelloq Color
-      white:
-        description: Allow Player to use White Color
-      black:
-        description: Allow Player to use Black Color
-      aqua:
-        description: Allow Player to use Aqua Color
-      pink:
-        description: Allow Player to use Pink Color
-      purple:
-        description: Allow Player to use Purple Color
-      rainbow:
-        description: Allow Player to use Rainbow Color
+    colorparticle.permission.all:
+      description: Allow Player to use all Colors
+    colorparticle.permission.red:
+      description: Allow Player to use Red Color
+    colorparticle.permission.green:
+      description: Allow Player to use Green Color
+    colorparticle.permission.blue:
+      description: Allow Player to use Blue Color
+    colorparticle.permission.orange:
+      description: Allow Player to use Orange Color
+    colorparticle.permission.yellow:
+      description: Allow Player to use Yelloq Color
+    colorparticle.permission.white:
+      description: Allow Player to use White Color
+    colorparticle.permission.black:
+      description: Allow Player to use Black Color
+    colorparticle.permission.aqua:
+      description: Allow Player to use Aqua Color
+    colorparticle.permission.pink:
+      description: Allow Player to use Pink Color
+    colorparticle.permission.purple:
+      description: Allow Player to use Purple Color
+    colorparticle.permission.rainbow:
+      description: Allow Player to use Rainbow Color

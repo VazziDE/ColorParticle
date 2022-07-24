@@ -5,7 +5,7 @@ namespace Vazzi\ColorParticle;
 
 
 use pocketmine\form\Form;
-use pocketmine\Player;
+use pocketmine\player\Player;
 
 class ParticleForm implements Form
 {

@@ -5,11 +5,11 @@ namespace Vazzi\ColorParticle;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\command\PluginIdentifiableCommand;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\plugin\Plugin;
+use pocketmine\plugin\PluginOwned;
 
-class ColorParticleCommand extends Command implements PluginIdentifiableCommand
+class ColorParticleCommand extends Command implements PluginOwned
 {
 
 
@@ -33,7 +33,7 @@ class ColorParticleCommand extends Command implements PluginIdentifiableCommand
         return true;
     }
 
-	public function getPlugin(): Plugin
+	public function getOwningPlugin(): Plugin
 	{
 		return ColorParticle::getInstance();
 	}
